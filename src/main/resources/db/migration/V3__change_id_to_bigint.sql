@@ -1,0 +1,5 @@
+ALTER TABLE tasks
+    ALTER COLUMN id TYPE BIGINT;
+
+ALTER SEQUENCE tasks_id_seq
+    AS BIGINT;
